@@ -1,0 +1,42 @@
+.logo {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+    .logo a[href="index.html"] {
+        margin-right: 25px;
+    }
+        .logo img {
+            filter: drop-shadow(0 0 2px #fff);
+            transform: scale(1.6) !important;
+        }
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+    background-color: rgba(49, 94, 190, 0.8);
+    text-decoration: underline 2px dotted ;
+    color: #fff;
+}
+
+.welcome-content p {
+    text-indent: 2rem;
+    text-align: justify;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+.footer-info h4 {
+    color: #2f4d5a !important;
+}
+
+.dropdown img {
+    width: 32px;
+    border-radius: 50%;
+}
