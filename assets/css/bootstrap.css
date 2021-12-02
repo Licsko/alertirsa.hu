@@ -383,14 +383,40 @@ section {
 .section-title h2::after {
   content: "";
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 122px;
-  height: 66px;
-  background: url(../img/section-title-bg.png) no-repeat;
+  right: 46%;
+  top: -110%;
+  /* transform: translate(-50%, -50%); */
+  width: 116px;
+  height: 122px;
+  background: url(../img/logo_skelton.png) no-repeat center;
+  background-size: 65%;
   z-index: -1;
+  filter: drop-shadow(1px 1px 2px hsl(198, 46%, 31%));
 }
+.section-title h2::after {
+  transform: rotate(.06turn);
+}
+@media (max-width: 1200px) {
+  .section-title h2::after {
+    right: 43%;
+  }
+}
+@media (max-width: 992px) {
+  .section-title h2::after {
+    right: 42%;
+  }
+}
+@media (max-width: 782px) {
+  .section-title h2::after {
+    right: 39%;
+  }
+}
+@media (max-width: 480px) {
+  .section-title h2::after {
+    right: 35%;
+  }
+}
+
 .section-title p {
   margin-bottom: 0;
 }
@@ -624,7 +650,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("https://www.mavcsoport.hu/sites/default/files/styles/width_1260/public/upload/story/image/albertirsa_2.jpg?itok=MofBI5bm") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }

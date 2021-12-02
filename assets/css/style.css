@@ -39,4 +39,9 @@
 .dropdown img {
     width: 32px;
     border-radius: 50%;
+    filter: drop-shadow(0 0 2px #fff);
+}
+
+.hide {
+    display: none !important;
 }
